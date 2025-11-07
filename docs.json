@@ -1,7 +1,7 @@
 {
-  "$schema": "https://thoughtaspires.mintlify.app/docs.json",
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "CashCurrent",
+  "name": "a Mint Kit",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,8 +11,29 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Cashlify",
         "groups": [
+          
+          {
+            "group": "Getting Started",
+            "pages": [
+              "gitworkflow",
+              "essentials/settings",
+              "essentials/navigation"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Mintlify",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          },
+          
           {
             "group": "Getting started",
             "pages": [
@@ -22,10 +43,11 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "AI tools",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
             ]
           },
           {
@@ -38,22 +60,10 @@
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Customization",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "essentials/settings",
+              "essentials/navigation"
             ]
           },
           {
@@ -79,13 +89,18 @@
           "anchor": "Blog",
           "href": "https://mintlify.com/blog",
           "icon": "newspaper"
+        },
+        {
+          "anchor": "Akbar",
+          "href": "https://akbarsait.com",
+          "icon": "globe"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/cashlify.svg",
+    "dark": "/logo/cashlify.svg"
   },
   "navbar": {
     "links": [
