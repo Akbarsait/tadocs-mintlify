@@ -13,11 +13,9 @@
       {
         "tab": "Cashlify",
         "groups": [
-          
           {
             "group": "Getting Started",
             "pages": [
-              "gitworkflow",
               "essentials/settings",
               "essentials/navigation"
             ]
@@ -33,7 +31,6 @@
               "api-reference/introduction"
             ]
           },
-          
           {
             "group": "Getting started",
             "pages": [
@@ -117,15 +114,15 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
