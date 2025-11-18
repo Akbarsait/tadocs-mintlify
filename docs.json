@@ -84,14 +84,20 @@
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://akbarsait.com/",
           "icon": "newspaper"
         },
         {
-          "anchor": "Akbar",
+          "anchor": "Akbar Noormohamed",
           "href": "https://akbarsait.com",
           "icon": "globe"
+        },
+        {
+          "anchor": "GetCFMLJobs.com",
+          "href": "https://getcfmljobs.com",
+          "icon": "globe"
         }
+        
       ]
     }
   },
